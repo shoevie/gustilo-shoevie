@@ -1,0 +1,47 @@
+.navbar {
+    background-color: rgb(37, 163, 212);
+    height: 12vh;
+}
+
+.navbar .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.btn-bembang {
+    background-color: gold;
+    border: 12px black;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-bembang:hover{
+    color: rgb(35, 53, 216);
+    border: 5px solid #111111;
+}
+
+.drag {
+    width: 8%;
+}
+
+.banner {
+    background:linear-gradient(90deg, rgba(244,244,244,1) 15%, rgba(244,244,244,1) 15%, rgba(238,174,202,1) 81%), url(king.webp) ;
+    height: 90vh;
+    background-size: cover;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.banner p{
+    color: #f3c90d;
+    font-size: 20px;
+    font-style: italic;
+}
