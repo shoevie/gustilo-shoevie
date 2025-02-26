@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(37, 163, 212);
+    background-color: rgb(37, 98, 212);
     height: 12vh;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .banner {
-    background:linear-gradient(90deg, rgba(244,244,244,1) 15%, rgba(244,244,244,1) 15%, rgba(238,174,202,1) 81%), url(king.webp) ;
+    background: linear-gradient(90deg, rgba(244,244,244,1) 1%, rgba(184,158,214,1) 9%, rgba(95,48,130,0.1741071428571429) 100%), url(shadow.jpg) ;
     height: 90vh;
     background-size: cover;
     text-transform: capitalize;
@@ -41,7 +41,63 @@
 }
 
 .banner p{
-    color: #f3c90d;
-    font-size: 20px;
+    color: #c21616;
+    font-size: 30px;
     font-style: italic;
 }
+
+section {
+    padding: 100px 0;
+    
+}
+
+#about h2 {
+ text-transform: capitalize;
+ font-weight: 800;
+ font-style: Bold;
+ color: blueviolet;
+}
+
+#about h5 {
+    font-style: italic;
+    
+}
+
+#about img {
+    border: 5px solid black;
+    box-shadow: 0 0 40px palevioletred;
+    border-radius: 25px;
+}
+
+.card-img-top {
+    width: 100px;
+}
+
+.card {
+    padding: 25px 20px;
+    transition: all ease-in 0.5s;
+    border: 5px solid rgb(56, 40, 128);
+    box-shadow: 0 0 40px rgb(111, 30, 158);
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.card:hover {
+    background-color: violet;
+}
+ .card:hover .card-title, 
+ .card:hover .card-text {
+    color: lavender;
+ }
+
+ #services h2 {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-style: Bold;
+    color: rgb(25, 28, 194);
+    margin-bottom: 30px;
+   }
+
+   #services {
+    background: plum;
+   }
