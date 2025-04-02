@@ -101,3 +101,77 @@ section {
    #services {
     background: plum;
    }
+
+   #reviews {
+    background: rgb(96, 67, 121);
+   }
+
+   .testimonial {
+    border: 5px solid wheat;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+   }
+
+   .testimonial img {
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid blue;
+
+   }
+
+   .faq-scetion {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+   }
+
+   .accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+   }
+
+   .accordion-button {
+    background-color: rgb(224, 120, 216);
+    border: none;
+    border-bottom: 1px solid violet;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+   }
+
+   .accordion-body {
+    border-left: 3px solid plum;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: pink;
+   }
+
+   .accordion-button:not(.collapsed) {
+    background-color: rgb(245, 179, 245);
+    color: beige;
+   }
+
+   .accordion-button:hover {
+    background-color: antiquewhite;
+    color: azure;
+   }
+
+   footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A1737 ;
+    }
+
+    #footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+    #footer ul.list-unstyled li:hover a {
+    color:  rgb(244, 149, 15) ; 
+    }
