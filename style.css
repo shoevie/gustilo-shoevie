@@ -120,7 +120,7 @@ section {
 
    }
 
-   .faq-scetion {
+   .faq-section {
     max-width: 800px;
     margin: auto;
     margin-top: 30px;
@@ -174,4 +174,20 @@ section {
 
     #footer ul.list-unstyled li:hover a {
     color:  rgb(244, 149, 15) ; 
+    }
+
+    @media screen and (max-width: 767px) {
+        h1 {
+            font-size: 45px !important;
+        }
+
+        section{
+            padding: 60px 20px;
+        }
+
+        #about img {
+            height: 300px;
+            width: 300px;
+            margin: 30px;
+        }
     }
